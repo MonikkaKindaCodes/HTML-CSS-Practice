@@ -1,0 +1,18 @@
+ul {
+    color: purple;
+    color: blue;
+    /* This style made the <li>s purple. The li's inherited this style from the ul since they are within the ul. */
+}
+
+body {
+    color: red;
+    /* This just changed the <p> due to it not having specific instructions like the li's above */
+}
+
+li {
+    color: orange;
+}
+
+.highlight {
+    color: yellow;
+}
