@@ -1,0 +1,29 @@
+/*Star Selector - Selects Everything on the Page*/
+* {
+    border: 1px solid lightgray;
+}
+
+/*Descendant Selector - Select specific tags within an HTML page 
+i.e. - Selecting only the anchor tags within an <li> */
+
+li a {
+    color: red;
+}
+
+/*Adjacent Selector - Allows us to select an element adjacent to (in hierarchy) another element i.e. The <ul> tags that are adjacent to the <p> tags in this exercise */
+
+p+ul {
+    border: 4px solid red;
+}
+
+/*Attribute Selector - Allows us to select an element based off any attribute. i.e. The href attribute that links to Google.com  */
+
+a[href="https://www.google.com"] {
+    background-color: lime;
+}
+
+/*nth of type  Selector - Allows us to select every nth of type on an HTML document. i.e. styling the final <ul>*/
+
+li:nth-last-of-type(1) {
+    background-color: purple;
+}
