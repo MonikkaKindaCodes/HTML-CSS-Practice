@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+img {
+    width: 30%;
+    height: 400px;
+    height: auto;
+    float: left;
+    margin: 1.666%;
+}
+
+h1 {
+    font-size: 40px;
+    margin-left: 1.66%;
+    font-weight: 800;
+    border-bottom: 5px solid white;
+    width: 30%;
+    padding-bottom: 5px;
+}
