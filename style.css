@@ -1,0 +1,18 @@
+li {
+    color: orange;
+}
+
+h1 {
+    color: rgb(734, 23, 73, 93);
+    border-width: 5px;
+    border-color: black;
+    border-style: dashed;
+}
+
+body {
+    background-color: orange;
+}
+
+.about {
+    background-color: pink;
+}
