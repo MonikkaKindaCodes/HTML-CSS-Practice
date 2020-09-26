@@ -11,6 +11,15 @@ h1 {
     color: red;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: red;
+}
+
 .container {
     width: 80%;
     margin: auto;
@@ -32,4 +41,30 @@ h1 {
 .box1 h1 {
     font-family: Tahoma;
     font-style: Italic;
+}
+
+.box-2 {
+    border: 3px dotted #ccc;
+    margin: 20px 0px;
+}
+
+.categories {
+    border: 1px lightgrey solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categories h2 {
+    text-align: center;
+}
+
+.categories ul {
+    padding: 0;
+    list-style: none;
+}
+
+.categories li {
+    padding-bottom: 8px;
+    border-bottom: 1px dotted #333;
+    list-style-image: ;
 }
