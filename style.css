@@ -1,18 +1,35 @@
-li {
-    color: orange;
+body {
+    background-color: #f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1.6em;
+
 }
 
 h1 {
-    color: rgb(734, 23, 73, 93);
-    border-width: 5px;
-    border-color: black;
-    border-style: dashed;
+    color: red;
 }
 
-body {
-    background-color: orange;
+.container {
+    width: 80%;
+    margin: auto;
 }
 
-.about {
-    background-color: pink;
+.box-1 {
+    background-color: #333;
+    color: #fff;
+    border: 5px red solid;
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style: dotted;
+
+    padding: 20px;
+
+    margin: 20px 0;
+}
+
+.box1 h1 {
+    font-family: Tahoma;
+    font-style: Italic;
 }
